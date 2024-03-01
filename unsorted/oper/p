@@ -1,0 +1,3 @@
+        DIMENSION K(10)
+        IF(((I==J).OR.(J.NE.M)).AND.((K(J).NE.K(J)).OR.(K(J).GT.K(J))))I=5
+        END
